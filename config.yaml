@@ -40,7 +40,10 @@ monitors:
 
     - id: linksbd.cf
     name: Link Shorter For LinksBD
+    description: 'Make Fast  & Secure Short Link With LINKSBD & Cloudflare.'
     url: 'https://linksbd.cf/'
     method: GET
     expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
     
