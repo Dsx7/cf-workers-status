@@ -37,3 +37,10 @@ monitors:
     url: 'https://blog.cloudflare.com/'
     method: GET
     expectStatus: 200
+
+    - id: linksbd.cf
+    name: Link Shorter For LinksBD
+    url: 'https://linksbd.cf/'
+    method: GET
+    expectStatus: 200
+    
